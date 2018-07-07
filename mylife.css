@@ -2,15 +2,16 @@ body h1
 {
 	font-family: 'Monofett', cursive;
 	font-size: +1;
-	background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+	
     background-size: cover;
+    color:mediumseagreen;
 
 }
-li
+#mywork,#myaims li
 {
 	font-family: 'Loved by the King', cursive;
 	font-size:1;
-
+	list-style-position: inside;
 }
 h3
 {
@@ -20,6 +21,11 @@ h3
 p
 {
 	font-family: 'Indie Flower', cursive;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+    border-left: 6px solid green;
 }
 .signin
 {
@@ -42,10 +48,78 @@ address
 h3 span {
     border: 4px dashed #20bcd5;
     padding: 10px;
+    border-radius: 12px;
+  	background-color: #f1f1f1;
 }
 .copyright {
     font-size: 8pt;
     text-align: right;
     padding-bottom: 10px;
     color: grey;
+}
+p
+{
+	text-indent: 50px;
+	background-color: #f1f1f1;
+	border-radius: 20px 50px;
+}
+th,td
+{
+	border-bottom: 1px solid #ddd;
+
+}
+tr:nth-child(even)
+ {
+	background-color: #f2f2f2;
+}
+input[type="email-id"]
+{
+	background-image: url("person_black_18x18.png");
+	background-color: white;
+	background-position: 3px 2px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+input[type="password"]
+{
+	background-image: url("lock_black_18x18.png");
+	background-color: white;
+	background-position: 3px 2px; 
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.header
+{
+	background-image: url("https://www.sololearn.com/Uploads/header.jpg");
+	background-size: cover;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 5px;
+}
+#links
+{
+    overflow: hidden;
+    background: linear-gradient(to right, orange , skyblue);
+    padding: 15px;
+}
+
+/* Style the topnav links */
+#links a 
+{
+    float: center;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+body
+{
+	background-image: url("IMG-20180618-WA0045.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#links a:hover {
+    background-color: #555;
+    color: white;
 }
